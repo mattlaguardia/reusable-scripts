@@ -42,17 +42,17 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
 
 if ($tablet_browser > 0) { ?>
 		 <div id="contact-button">
-		 	<img src="/wp-content/uploads/2017/03/message-icon.png" alt="">
+		 	<a href="#"><img src="/wp-content/uploads/2017/03/message-icon.png" alt=""></a>
 		 </div>
 <?php }
 else if ($mobile_browser > 0) { ?>
 		 <div id="contact-button">
-		 	<img src="/wp-content/uploads/2017/03/message-icon.png" alt="">
+		 	<a href="#"><img src="/wp-content/uploads/2017/03/message-icon.png" alt=""></a>
 		 </div>
 <?php }
 else { ?>
 	 <div id="contact-button">
-	 	<img src="/wp-content/uploads/2017/03/message-icon.png" alt="">
+	 	<a href="#"><img src="/wp-content/uploads/2017/03/message-icon.png" alt=""></a>
 	 </div>
 <?php }
 ?>
